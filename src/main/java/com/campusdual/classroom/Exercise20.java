@@ -6,7 +6,7 @@ import java.util.List;
 public class Exercise20 {
 
     public static List<Person> getPeopleList() {
-        List<Person> peopleList = new ArrayList();
+        List<Person> peopleList = new ArrayList<>();
         Person person = new Person("John", "Smith");
         peopleList.add(person);
         Teacher teacher = new Teacher("Maria", "Montessori", "Educacion");
